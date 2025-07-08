@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejercicio 7 - Layout Completo</title>
+  <style>
+    * { box-sizing: border-box; }
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+    }
+    .pagina {
+      max-width: 1000px;
+      margin: auto;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+    header, footer {
+      background: #333;
+      color: white;
+      padding: 20px;
+    }
+    .contenido {
+      display: flex;
+      flex: 1;
+    }
+    .menu {
+      width: 30%;
+      background: #ddd;
+      padding: 20px;
+    }
+    .blog {
+      width: 70%;
+      background: #f9f9f9;
+      padding: 20px;
+    }
+    footer {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="pagina">
+    <header>Header</header>
+    <div class="contenido">
+      <div class="menu">Menú lateral</div>
+      <div class="blog">Contenido del blog</div>
+    </div>
+    <footer>Footer fijo abajo</footer>
+  </div>
+</body>
+</html>

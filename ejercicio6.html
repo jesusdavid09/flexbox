@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejercicio 6 - Pricing Box</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #f0f0f0;
+    }
+    .container {
+      display: flex;
+      gap: 20px;
+    }
+    .box {
+      width: 250px;
+      min-height: 480px;
+      background: #93d9e9;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      overflow: hidden;
+    }
+    .box .header {
+      background: salmon;
+      color: white;
+      padding: 20px;
+      font-size: 1.2em;
+    }
+    .box .body {
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box">
+      <div class="header">Plan Básico</div>
+      <div class="body">Contenido</div>
+    </div>
+    <div class="box">
+      <div class="header">Plan Pro</div>
+      <div class="body">Contenido</div>
+    </div>
+  </div>
+</body>
+</html>
