@@ -1,0 +1,36 @@
+body {
+      margin: 0;
+    }
+    .menu {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 40px;
+      background: #f4f4f4;
+    }
+    .logo img {
+      height: 50px;
+    }
+    .nav-links {
+      display: flex;
+      gap: 30px;
+    }
+    .nav-links a {
+      color: #555353;
+      font-size: 20px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .idiomas {
+      display: flex;
+      gap: 15px;
+    }
+    .idiomas a {
+      color: #ffffff;
+      font-size: 20px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      background-color: #555353;
+      height: 60px;
+      width: 60px;
+      text-align: center;
+      line-height: 60px;
+    }
