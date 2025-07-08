@@ -1,0 +1,12 @@
+html, body {
+      height: 100%;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .contenido {
+      padding: 40px;
+      background: #93d9e9;
+      border-radius: 10px;
+    }
