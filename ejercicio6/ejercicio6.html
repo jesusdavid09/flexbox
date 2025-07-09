@@ -3,48 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <title>Ejercicio 6 - Pricing Box</title>
-  <style>
-    body {
-      margin: 0;
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background: #f0f0f0;
-    }
-    .container {
-      display: flex;
-      gap: 20px;
-    }
-    .box {
-      width: 250px;
-      min-height: 480px;
-      background: #93d9e9;
-      border-radius: 15px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.2);
-      overflow: hidden;
-    }
-    .box .header {
-      background: salmon;
-      color: white;
-      padding: 20px;
-      font-size: 1.2em;
-    }
-    .box .body {
-      padding: 20px;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div class="container">
-    <div class="box">
-      <div class="header">Plan Básico</div>
-      <div class="body">Contenido</div>
+    <div class="box1">
+      <div class="header">1 day pass</div>
+      <div class="body"><p>Acceso en día seleccionado</p><p>participacion en workshops</p><p>Acceso a zona networking</p><button>COMPRAR</button></div>
     </div>
-    <div class="box">
-      <div class="header">Plan Pro</div>
-      <div class="body">Contenido</div>
+    <div class="box2">
+      <div class="header">Weekend Pass</div>
+      <div class="body"><p>Acceso en fin de semana</p><p>participacion en workshops</p><p>Acceso a zona networking</p><p>Noche de hotel incluida</p><button>COMPRAR</button></div>
     </div>
+    <div class="box3">
+      <div class="header">Weekend Pass</div>
+      <div class="body"><p>Acceso a toda las ponencias</p><p>participacion en workshops</p><p>Acceso a zona networking</p><p>Noche de hotel incluida</p><p>Lunch de bienvenida </p><button>COMPRAR</button></div>
   </div>
 </body>
 </html>

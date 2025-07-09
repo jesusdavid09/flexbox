@@ -7,6 +7,16 @@ html, body {
     }
     .contenido {
       padding: 40px;
-      background: #93d9e9;
-      border-radius: 10px;
+      background: #b9b9b9;
+      width: 300px;
+    }
+    .contenido h1 {
+      font-size: 24px;
+      color: #000000;
+      margin-top:-20px;
+    }
+    .contenido p {
+      font-size: 15px;
+      color: #000000;
+      margin-top: 40px;
     }

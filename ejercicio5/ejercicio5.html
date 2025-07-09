@@ -3,30 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <title>Ejercicio 5 - Layout 3 Columnas</title>
-  <style>
-    html, body {
-      height: 100vh;
-      margin: 0;
-    }
-    .layout {
-      display: flex;
-      height: 100%;
-    }
-    .col1 {
-      flex: 2;
-      background: salmon;
-    }
-    .col2, .col3 {
-      flex: 1;
-      background: #93d9e9;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="layout">
-    <div class="col1">Columna 1</div>
-    <div class="col2">Columna 2</div>
-    <div class="col3">Columna 3</div>
-  </div>
+  <header class="header">Bienvenido al Header</header>
+  <main>
+    <div class="container">
+      <div class="col1"><h3>Navegación</h3></div>
+      <div class="col2"><h1>Titulo del post</h1><p>lorem ipsum...</p></div>
+      <div class="col3"><h3>Columna</h3></div>
+    </div>
+  </main>
+  <footer>Footer</footer>
 </body>
 </html>
